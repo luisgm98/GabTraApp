@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GabTraApp">
         <activity
+            android:name=".OptionsMenu"
+            android:exported="true" />
+        <activity
             android:name=".PlanAlimenticio"
             android:exported="true" />
         <activity
