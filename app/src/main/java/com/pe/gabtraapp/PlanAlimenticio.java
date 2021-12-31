@@ -746,10 +746,10 @@ public class PlanAlimenticio extends AppCompatActivity {
     }
 
     private void SumLac(HashMap Day, HashMap DayRes, String Meal){
-        if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[0] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[0] ){
+        //if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[0] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[0] ){
             ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[0] += 1;
             LacRes.setText(  Integer.toString( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[0] ) );
-        }
+        //}
     }
     private void ResLac(HashMap Day, HashMap DayRes, String Meal){
         if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[0] > 0 ){
@@ -759,10 +759,10 @@ public class PlanAlimenticio extends AppCompatActivity {
     }
 
     private void SumFru(HashMap Day, HashMap DayRes, String Meal){
-        if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[1] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[1] ){
+        //if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[1] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[1] ){
             ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[1] += 1;
             FruRes.setText(  Integer.toString( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[1] ) );
-        }
+        //}
     }
     private void ResFru(HashMap Day, HashMap DayRes, String Meal){
         if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[1] > 0 ){
@@ -772,10 +772,10 @@ public class PlanAlimenticio extends AppCompatActivity {
     }
 
     private void SumVeg(HashMap Day, HashMap DayRes, String Meal){
-        if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[2] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[2] ){
+        //if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[2] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[2] ){
             ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[2] += 1;
             VegRes.setText(  Integer.toString( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[2] ) );
-        }
+        //}
     }
     private void ResVeg(HashMap Day, HashMap DayRes, String Meal){
         if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[2] > 0 ){
@@ -785,10 +785,10 @@ public class PlanAlimenticio extends AppCompatActivity {
     }
 
     private void SumHar(HashMap Day, HashMap DayRes, String Meal){
-        if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[3] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[3] ){
+        //if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[3] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[3] ){
             ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[3] += 1;
             HarRes.setText(  Integer.toString( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[3] ) );
-        }
+        //}
     }
     private void ResHar(HashMap Day, HashMap DayRes, String Meal){
         if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[3] > 0 ){
@@ -798,10 +798,10 @@ public class PlanAlimenticio extends AppCompatActivity {
     }
 
     private void SumPro(HashMap Day, HashMap DayRes, String Meal){
-        if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[4] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[4] ){
+        //if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[4] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[4] ){
             ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[4] += 1;
             ProRes.setText(  Integer.toString( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[4] ) );
-        }
+        //}
     }
     private void ResPro(HashMap Day, HashMap DayRes, String Meal){
         if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[4] > 0 ){
@@ -811,10 +811,10 @@ public class PlanAlimenticio extends AppCompatActivity {
     }
 
     private void SumGra(HashMap Day, HashMap DayRes, String Meal){
-        if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[5] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[5] ){
+        //if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[5] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[5] ){
             ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[5] += 1;
             GraRes.setText(  Integer.toString( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[5] ) );
-        }
+        //}
     }
     private void ResGra(HashMap Day, HashMap DayRes, String Meal){
         if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[5] > 0 ){
@@ -824,10 +824,10 @@ public class PlanAlimenticio extends AppCompatActivity {
     }
 
     private void SumLiq(HashMap Day, HashMap DayRes, String Meal){
-        if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[6] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[6] ){
+        //if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[6] < ((Integer[]) Objects.requireNonNull(Day.get(Meal)))[6] ){
             ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[6] += 1;
             LiqRes.setText(  Integer.toString( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[6] ) );
-        }
+        //}
     }
     private void ResLiq(HashMap Day, HashMap DayRes, String Meal){
         if ( ((Integer[]) Objects.requireNonNull(DayRes.get(Meal)))[6] > 0 ){
